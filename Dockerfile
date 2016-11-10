@@ -23,6 +23,7 @@ RUN apk --update add \
     php7-ldap \
     php7-ctype \
     php7-dom \
+    php7-phar \
     fcgi \
     && rm -rf /var/cache/apk/*
 
