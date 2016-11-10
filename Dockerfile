@@ -25,6 +25,7 @@ RUN apk --update add \
     php7-dom \
     php7-phar \
     php7-openssl \
+    php7-mbstring \
     fcgi \
     && rm -rf /var/cache/apk/*
 
